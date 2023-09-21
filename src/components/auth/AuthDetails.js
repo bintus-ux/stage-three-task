@@ -139,8 +139,17 @@ const AuthDetails = () => {
         <div className='gallery-content'>
           {isLoading ? (
             <>
-              <Skeleton height='200px' my='2' />
-              <SkeletonText mt='4' noOfLines={5} spacing='4' />
+              <Skeleton
+                height='50vh'
+                width='250px'
+                style={{ backgroundColor: 'white' }}
+              />
+              <SkeletonText
+                style={{ backgroundColor: 'white' }}
+                mt='4'
+                noOfLines={5}
+                spacing='4'
+              />
             </>
           ) : (
             <>

@@ -71,7 +71,7 @@ hr {
     text-align: center;
     padding: 20px;
     border: 2px solid black;
-    margin-top: -150px;
+    margin-top: -250px;
   }
   .img-container {
     height: auto;
@@ -80,6 +80,9 @@ hr {
     height: 150px;
     width: 150px;
     margin: auto;
+  }
+  .skeleton-container {
+    margin-top: -300px;
   }
   @media screen and (max-width: 768px) {
     .gallery-content {
