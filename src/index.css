@@ -57,10 +57,10 @@ hr {
 .gallery-wrapper {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   height: 1200px;
-  max-width: 100%;
-  margin: 0;
+  margin: auto;
   }
   .gallery-content {
     position: absolute;
@@ -77,16 +77,19 @@ hr {
     height: auto;
   }
   .res-image {
-    max-width: 100%; 
-    height: auto; 
-    display: block;
-    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    margin: auto;
   }
   @media screen and (max-width: 768px) {
     .gallery-content {
      width: auto;
-     height: 50%;
-     margin-top: -200px;
+     height: auto;
+     margin: 150px auto;
+    }
+    .res-image {
+      height: 100px;
+      width: 100px;
     }
     .img-container {
       height: auto;

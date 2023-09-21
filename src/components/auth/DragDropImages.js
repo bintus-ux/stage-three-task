@@ -19,7 +19,6 @@ const DragDropImages = ({ imageUrl }) => {
           id={imageUrl.id}
           src={imageUrl.src}
           alt='image'
-          boxSize='150px'
           m={4}
           className='res-image'
         />

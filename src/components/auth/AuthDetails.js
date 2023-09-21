@@ -84,18 +84,6 @@ const AuthDetails = () => {
       id: 12,
       src: 'IMG_0840.JPG',
     },
-    {
-      id: 13,
-      src: 'IMG_0841.JPG',
-    },
-    {
-      id: 14,
-      src: 'IMG_0842.JPG',
-    },
-    {
-      id: 15,
-      src: 'IMG_0843.JPG',
-    },
   ])
 
   useEffect(() => {
