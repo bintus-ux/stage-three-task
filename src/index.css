@@ -12,89 +12,45 @@
     overflow: hidden;
 }
 .form-wrapper {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-margin: 0;
-}
-.form-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  height: 500px;
-  background-color: aquamarine;
-  text-align: center;
-  padding: 20px;
-  border: 2px dotted black;
-}
-@media screen and (max-width: 768px) {
- .form-content {
-  width: 300px;
-  height: auto;
- }
-}
-h1 {
-  color: black;
-  font-size: 30px;
-  font-family: cursive;
-}
-hr {
-  width: 7%;
-  margin: 0 auto;
-}
-.form {
-  margin-top: 30px;
-}
-::placeholder {
-  font-family: cursive;
-}
-.input-form {
-  border: 1px solid red;
-}
-.gallery-wrapper {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: center;
-  height: 1200px;
-  margin: auto;
+  height: 100vh;
+  margin: 0;
   }
-  .gallery-content {
+  .form-content {
     position: absolute;
-    max-width: 100%;
-    width: 1000px;
-    height: auto;
-    background-color: rgb(101, 157, 138);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
     text-align: center;
     padding: 20px;
-    border: 2px solid black;
-    margin-top: -250px;
-  }
-  .img-container {
-    height: auto;
-  }
-  .res-image {
-    height: 150px;
-    width: 150px;
-    margin: auto;
-  }
-  .skeleton-container {
-    margin-top: -300px;
+    border: 2px dotted black;
   }
   @media screen and (max-width: 768px) {
-    .gallery-content {
-     width: auto;
-     height: auto;
-     margin: 150px auto;
-    }
-    .res-image {
-      height: 100px;
-      width: 100px;
-    }
-    .img-container {
-      height: auto;
-    }
+   .form-content {
+    width: 300px;
+    height: auto;
    }
+  }
+  h1 {
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+  }
+  hr {
+    width: 7%;
+    margin: 0 auto;
+  }
+  .form {
+    margin-top: 30px;
+  }
+  ::placeholder {
+    font-family: cursive;
+  }
+  .input-form {
+    border: 1px solid red;
+  }

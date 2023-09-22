@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { auth } from '../../firebase'
+import { auth } from '../firebase'
 import { useForm } from 'react-hook-form'
 import {
   FormLabel,
@@ -11,8 +11,6 @@ import {
 } from '@chakra-ui/react'
 import { signInWithEmailAndPassword } from 'firebase/auth'
 import { useNavigate } from 'react-router-dom'
-import SignupForm from './SignupForm'
-import AuthDetails from './AuthDetails'
 
 export default function SigninForm() {
   const [email, setEmail] = useState('')

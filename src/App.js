@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import { ChakraProvider, Box } from '@chakra-ui/react'
-import SigninForm from './components/auth/SigninForm'
-import AuthDetails from './components/auth/AuthDetails'
+import SigninForm from './components/SigninForm'
+import AuthDetails from './components/AuthDetails'
 
 const App = () => {
   return (
