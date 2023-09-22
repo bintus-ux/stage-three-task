@@ -123,9 +123,19 @@ const AuthDetails = () => {
           </>
         ) : (
           <>
-            <Heading size='lg' fontSize='50px' color='red.500' p={2}>
-              Gallery
-            </Heading>
+            <Box className='header'>
+              <Heading size='lg' fontSize='50px' color='red.500' p={2}>
+                Gallery
+              </Heading>
+              <Button
+                isLoading={signoutIsLoading}
+                loadingText='Signing out...'
+                color='red.500'
+                mt={5}
+                onClick={userSignOut}>
+                Sign out
+              </Button>
+            </Box>
             <Box p={4}>
               <Stack direction='row' spacing={2}>
                 <Input
@@ -153,14 +163,6 @@ const AuthDetails = () => {
             {authUser ? (
               <>
                 <UploadGallery />
-                <Button
-                  isLoading={signoutIsLoading}
-                  loadingText='Signing out...'
-                  color='red.500'
-                  mt={5}
-                  onClick={userSignOut}>
-                  Sign out
-                </Button>
               </>
             ) : (
               <p>Signed out</p>
