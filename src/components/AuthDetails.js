@@ -140,7 +140,7 @@ const AuthDetails = () => {
               <Stack direction='row' spacing={2}>
                 <Input
                   type='text'
-                  placeholder='Search by ID'
+                  placeholder='Search by Name'
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                 />
